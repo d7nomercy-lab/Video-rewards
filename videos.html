@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Library</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #0b1120;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #172554;
+  padding: 22px;
+  text-align: center;
+}
+
+header h1 { color: #38bdf8; }
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 18px;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 15px;
+  padding: 18px;
+  margin-bottom: 18px;
+}
+
+.thumbnail {
+  background: linear-gradient(135deg, #075985, #312e81);
+  height: 160px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 9px;
+  color: #082f49;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.back {
+  background: #334155;
+  color: white;
+  margin-bottom: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🎬 Video Library</h1>
+  <p>Explore videos</p>
+</header>
+
+<div class="container">
+
+<a href="index.html">
+<button class="back">← Back Home</button>
+</a>
+
+<div class="card">
+  <div class="thumbnail">🎥</div>
+  <h2>Entertainment</h2>
+  <p>Explore entertainment videos.</p>
+  <a href="https://www.youtube.com/results?search_query=entertainment+videos" target="_blank">
+    <button>Watch Videos</button>
+  </a>
+</div>
+
+<div class="card">
+  <div class="thumbnail">🎮</div>
+  <h2>Gaming</h2>
+  <p>Discover gaming content.</p>
+  <a href="https://www.youtube.com/results?search_query=gaming+videos" target="_blank">
+    <button>Watch Videos</button>
+  </a>
+</div>
+
+<div class="card">
+  <div class="thumbnail">🌍</div>
+  <h2>Education</h2>
+  <p>Learn something new.</p>
+  <a href="https://www.youtube.com/results?search_query=educational+videos" target="_blank">
+    <button>Watch Videos</button>
+  </a>
+</div>
+
+<div class="card">
+  <div class="thumbnail">⚽</div>
+  <h2>Sports</h2>
+  <p>Enjoy sports highlights and videos.</p>
+  <a href="https://www.youtube.com/results?search_query=sports+videos" target="_blank">
+    <button>Watch Videos</button>
+  </a>
+</div>
+
+</div>
+
+</body>
+</html>
